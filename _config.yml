@@ -1,0 +1,26 @@
+# Site settings
+title: Sara E. Moore
+email: sara@saraemoore.com
+description: > # this means to ignore newlines until "baseurl:"
+  Personal website of Sara Moore, Biostatistics PhD candidate at UC Berkeley.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.saraemoore.com" # the base hostname & protocol for your site
+twitter_username: sara_e_moore
+github_username:  saraemoore
+linkedin_username: saraemoore
+scholar_username: RmXj4sAAAAAJ
+
+# google_analytics:
+
+# Build settings
+markdown: kramdown
+# highlighter: pygments # github will override
+
+gems:
+  - jekyll-gist
+
+pages:
+  - '/about'
+  - '/cv'
+#  - '/software'
+#  - '/contact'
