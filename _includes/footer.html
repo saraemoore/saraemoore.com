@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+<!--    <h2 class="footer-heading">{{ site.title }}</h2> -->
 
     <div class="footer-col-wrapper">
 
@@ -18,6 +18,14 @@
           {% if site.url %}
           <li><i class='fa-li fa fa-external-link-square'></i>
             <a href="{{ site.url }}">{{ site.url }}</a>
+          </li>
+          {% endif %}
+
+          {% if site.scholar_username %}
+          <li><i class='fa-li fa fa-google'></i>
+            <a href="https://scholar.google.com/citations?user={{ site.scholar_username }}">
+              Scholar profile
+            </a>
           </li>
           {% endif %}
 
@@ -51,21 +59,20 @@
           </li>
           {% endif %}
 
-          {% if site.scholar_username %}
-          <li><i class='fa-li fa fa-google'></i>
-            <a href="https://scholar.google.com/citations?user={{ site.scholar_username }}">
-              Scholar profile
-            </a>
-          </li>
-          {% endif %}
-
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+        <p>{{ site.description }}<br/>
+
+        Hosted by <a href="https://pages.github.com/">Github Pages</a>. Generated using <a href="https://jekyllrb.com/">Jekyll</a>.
+        <!-- Displayed with modified <a href="https://github.com/dbtek/dbyll">dbyll</a> theme. -->
+        </p>
+
       </div>
+
     </div>
+
 
   </div>
 

@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: page_alt
 title: CV
+description: Curriculum Vitae of Sara E. Moore
 permalink: /cv
 ---
 
@@ -161,7 +162,7 @@ Duke University Academic Technology Services
 
 At UC Berkeley, I've served as **co-President** of the [Biostatistics Graduate Student Association](http://bsgsa.berkeley.edu/) since August 2014.
 
-As a **Supervisor, Research Specialist** (August 2009 -- August 2011) and **Senior Research Specialist** (July 2007 -- August 2009) at Emory University, responsibilities included training and supervising junior research staff, graduate students, and undergraduate students.
+As a **Supervisor, Research Specialist** (August 2009 -- August 2011) and **Senior Research Specialist** (July 2007 -- August 2009) at Emory University, my responsibilities included training and supervising junior research staff, graduate students, and undergraduate students.
 
 ## Industry &amp; Professional Experience
 
