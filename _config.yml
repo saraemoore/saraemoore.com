@@ -10,6 +10,8 @@ paginate: 5
 gems:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-sitemap
+  - jekyll-feed
 # port: 3000
 # safe: true
 
