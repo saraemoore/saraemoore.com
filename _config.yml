@@ -1,26 +1,81 @@
-# Site settings
-title: Sara E. Moore
-email: sara@saraemoore.com
-description: > # this means to ignore newlines until "baseurl:"
-  Personal website of Sara Moore, Biostatistics PhD candidate at UC Berkeley.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.saraemoore.com" # the base hostname & protocol for your site
-twitter_username: sara_e_moore
-github_username:  saraemoore
-linkedin_username: saraemoore
-scholar_username: RmXj4sAAAAAJ
-
-# google_analytics:
-
-# Build settings
+# top level stuff you probably don't need to touch
+# highlighter: pygments
+# markdown: rdiscount
+# rdiscount:
+#   extensions: [smart]
 markdown: kramdown
-# highlighter: pygments # github will override
-
+highlighter: rouge
+# permalink: /:title.html
+paginate: 5
 gems:
+  - jekyll-paginate
   - jekyll-gist
+  - jekyll/scholar
+# port: 3000
+# safe: true
 
-pages:
-  - '/about'
-  - '/cv'
-#  - '/software'
-#  - '/contact'
+# pages:
+  # - '/about'
+  # - '/cv'
+
+# edit here to achieve your personal greatness
+url: "http://www.saraemoore.com/"
+baseurl: ""
+title: Sara E. Moore
+author: Sara Moore
+name: Sara Moore
+description: Personal website of Sara Moore, Biostatistics PhD candidate at UC Berkeley.
+#avatar: http://files.saraemoore.com/images/sara_wjwed_zoom_square.png
+avatar: http://files.saraemoore.com/images/genentech_small.png
+avatar_small: http://files.saraemoore.com/images/sara_saturn_cafe_square.png
+email: sara@saraemoore.com
+email_full: mailto:sara@saraemoore.com
+website: www.saraemoore.com
+website_full: https://www.saraemoore.com
+github: saraemoore
+twitter: sara_e_moore
+linkedin: saraemoore
+# stackoverflow: username   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus 
+#disqus: username
+google_analytics: UA-48006600-4
+
+tel: 919 627 7272
+tel_full: tel:+19196277272
+google_maps: 'https://www.google.com/maps/place/Haviland+Hall,+Berkeley,+CA+94709'
+address: 101 Haviland Hall,<br />MC 7358
+postcode: 94720-7358
+city: Berkeley
+state: California
+country: United States
+
+# hilitecolor: "#27A822"
+hilitecolor: "#eb6e1f"
+tagcolor: "#1f9ceb"
+
+# needed for travis-ci build
+exclude: [vendor]
+
+scholar:
+  style: _bibliography/ieee_nonums
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  group_by: none
+  group_order: ascending
+
+  # source: ./_bibliography
+  # bibliography: bibliography.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+  bibtex_filters:
+  - superscript
+  - latex
+
+  query: "@*"
