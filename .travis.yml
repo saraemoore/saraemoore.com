@@ -1,6 +1,7 @@
 # from http://jekyllrb.com/docs/continuous-integration/
 language: ruby
 rvm:
+- 2.2
 - 2.1
 
 # Assume bundler is being used, therefore
