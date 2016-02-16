@@ -3,7 +3,6 @@ sudo: false
 # from http://jekyllrb.com/docs/continuous-integration/
 language: ruby
 rvm:
-- 2.3
 - 2.2
 
 # Assume bundler is being used, therefore
