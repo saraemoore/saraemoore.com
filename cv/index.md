@@ -2,7 +2,6 @@
 layout: vitae
 title: CV
 description: Curriculum Vitae
-permalink: /cv
 ---
 
 <!--
