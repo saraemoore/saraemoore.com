@@ -3,12 +3,15 @@ sudo: false
 # from http://jekyllrb.com/docs/continuous-integration/
 language: ruby
 rvm:
-- 2.1
+- 2.2
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 # install: gem install jekyll html-proofer
-script: ./script/cibuild
+install:
+  - bundle install
+  - gem install html-proofer
+script: jekyll build && htmlproofer ./_site --disable-external --href-ignore "#"
 
 # branch whitelist, only for GitHub Pages
 branches:
