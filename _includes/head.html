@@ -4,8 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="{{ site.author }}" />
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="favicon" href="{{ site.baseurl }}/img/favicon.ico">
-<!--  <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/favicon.png"> -->
+  <link rel="shortcut icon" type="image/png" href="{{ "/images/favicon.png" | prepend: site.baseurl }}" >
+<!--  <link rel="favicon" href="{{ site.baseurl }}/images/favicon.ico"> -->
+<!--  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png"> -->
 
   {% if page.title %}
     <title>{{ page.title }}</title>
