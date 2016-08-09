@@ -138,6 +138,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (= 89)
   html-proofer
+  jekyll
   jekyll-feed
   jekyll-gist
   jekyll-paginate
