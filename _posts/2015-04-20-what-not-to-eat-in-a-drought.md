@@ -19,19 +19,19 @@ The graphic below presents the average gallons of water required to produce one 
 
 Calorie for Calorie, asparagus requires the most water to produce, followed by mangoes, beef, lamb, and pork. Dates require the least water per kcal, with garlic, carrots, pineapples, and onions not far behind.
 
-<img src="http://files.saraemoore.com/figures/2015-04-20-what-not-to-eat-in-a-drought-galperkcal-1.png" width="600px" height="850px" style="display: block; margin: auto;" />
+<img src="http://files.saraemoore.com/figures/2015-04-20-what-not-to-eat-in-a-drought-galperkcal-1.png" title="Average gallons of water required in the U.S. to produce one Calorie, listed by food product and category" alt="Average gallons of water required in the U.S. to produce one Calorie, listed by food product and category" width="600px" height="850px" style="display: block; margin: auto;" />
 
 The second graphic, below, is more directly related to the California drought. It instead displays the average gallons of water used in California to produce one nutritional calorie of 64 food products. The food products included are a subset of those in the analogous U.S. figure, above, but are limited to those for which a California-specific average was included in Mekonnen and Hoekstra's dataset.
 
-<img src="http://files.saraemoore.com/figures/2015-04-20-what-not-to-eat-in-a-drought-galperkcalcali-1.png" width="600px" height="850px" style="display: block; margin: auto;" />
+<img src="http://files.saraemoore.com/figures/2015-04-20-what-not-to-eat-in-a-drought-galperkcalcali-1.png" title="Average gallons of water required in California to produce one Calorie, listed by food product and category" alt="Average gallons of water required in California to produce one Calorie, listed by food product and category" width="600px" height="850px" style="display: block; margin: auto;" />
 
 The third graphic is similar to the two above, but includes the global average gallons of water needed to produce one nutritional calorie of 80 food products.
 
-<img src="http://files.saraemoore.com/figures/2015-04-20-what-not-to-eat-in-a-drought-galperkcalglobal-1.png" width="600px" height="850px" style="display: block; margin: auto;" />
+<img src="http://files.saraemoore.com/figures/2015-04-20-what-not-to-eat-in-a-drought-galperkcalglobal-1.png" title="Average gallons of water required globally to produce one Calorie, listed by food product and category" alt="Average gallons of water required globally to produce one Calorie, listed by food product and category" width="600px" height="850px" style="display: block; margin: auto;" />
 
 The graphic below displays a different take on nutritional content: the average gallons of water required, in the U.S., to produce one gram of protein in 18 foods in "protein-rich" food product categories. Hazelnuts, walnuts, and beef perform worst, while soy milk, chicken, and eggs are the most water-efficient "proteins."
 
-<img src="http://files.saraemoore.com/figures/2015-04-20-what-not-to-eat-in-a-drought-galpergprotein-1.png" width="600px" height="850px" style="display: block; margin: auto;" />
+<img src="http://files.saraemoore.com/figures/2015-04-20-what-not-to-eat-in-a-drought-galpergprotein-1.png" title="Average gallons of water required in the U.S. to produce one gram of protein, listed by food product and category" alt="Average gallons of water required in the U.S. to produce one gram of protein, listed by food product and category" width="600px" height="850px" style="display: block; margin: auto;" />
 
 ***
 
