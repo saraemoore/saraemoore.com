@@ -5,7 +5,7 @@ date: 2014-03-25 03:03:04 -0700
 tags: [ggplot2, r, dataviz]
 ---
 
-Let me just start by saying this: if you're in the business of visualizing data, [ggplot2](http://ggplot2.org) is great. There's a bit of a learning curve, especially for those new to [R](http://www.r-project.org/) — but it's pretty redeeming when you finally master it and people actually **want** to look at your graphics. These days — partly for aesthetics and consistency, but also partly out of pure stubbornness — I try to create all of my plots with ggplot. This generally involves a lot of [documentation](http://docs.ggplot2.org/current/)-consulting and [stackoverflow](http://stackoverflow.com/questions/tagged/ggplot2)-searching, but luckily for me, the internet can usually provide at least one answer (if not ten) for most ggplot problems.
+If you're in the business of visualizing data, [ggplot2](http://ggplot2.org) is great. There's a bit of a learning curve, especially for those new to [R](http://www.r-project.org/) -- but it's pretty redeeming when you finally master it and people actually **want** to look at your graphics. For aesthetics and consistency -- but also partly out of pure stubbornness -- I try to create all of my static plots with ggplot. This generally involves a lot of [documentation](http://docs.ggplot2.org/current/)-consulting and [stackoverflow](http://stackoverflow.com/questions/tagged/ggplot2)-searching, but luckily for me, the internet can usually provide at least one answer (if not ten) for most ggplot problems.
 
 Recently, though, I ran up against an unexpected roadblock when attempting to make a fairly simple boxplot. Here's the idea: a continuous measure on the y-axis, boxes with a color fill defined by a two-level factor, and a numerical but discrete and non-linearly-increasing measure of time on the x-axis. Here's some simulated data to demonstrate:
 
@@ -65,7 +65,7 @@ ggplot(data.df, aes(y=value, x=time)) +
 
 <img src="http://files.saraemoore.com/figures/2014-03-25-testing-the-limits-of-ggplot2s-geomboxplot-unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" width="700px" height="500px" />
 
-What's interesting about this approach is that the way `position` is used here seems to be entirely undocumented. However, it works. Below is a slightly improved code snippet, along with the (correct!) boxplot it produces.
+It works. Below is a slightly improved code snippet, along with the (correct!) boxplot it produces.
 
 
 {% highlight r %}
@@ -78,4 +78,4 @@ ggplot(data.df, aes(y=value, x=time)) +
 
 <img src="http://files.saraemoore.com/figures/2014-03-25-testing-the-limits-of-ggplot2s-geomboxplot-unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" width="700px" height="500px" />
 
-(**Update** 22 Aug 2016: this post has been regenerated under ggplot2 v2.1.0.)
+(**Update** 22 Aug 2016: this post has been regenerated under ggplot2 v2.1.0 and edited for brevity.)
