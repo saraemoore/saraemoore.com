@@ -1,5 +1,7 @@
+figs
 _site
 _bibliography
 .sass-cache
 .jekyll-metadata
 .DS_Store
+.Rapp.history
