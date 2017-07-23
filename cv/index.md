@@ -35,6 +35,8 @@ output:
 
 {% include leadership.html %}
 
+{% include volunteer.html %}
+
 {% include professional.html %}
 
 {% include awards.html %}
