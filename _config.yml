@@ -51,8 +51,10 @@ state: California
 country: United States
 
 # hilitecolor: "#27A822"
-hilitecolor: "#eb6e1f"
-tagcolor: "#1f9ceb"
+# hilitecolor: "#eb6e1f"
+hilitecolor: "#008080"
+# tagcolor: "#1f9ceb"
+tagcolor: "#e84e23"
 
 # needed for travis-ci build
 exclude: [vendor]
