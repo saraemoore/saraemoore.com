@@ -29,6 +29,8 @@ output:
 
 {% include education.html %}
 
+{% include professional.html %}
+
 {% include research.html %}
 
 {% include teaching.html %}
@@ -36,8 +38,6 @@ output:
 {% include leadership.html %}
 
 {% include volunteer.html %}
-
-{% include professional.html %}
 
 {% include awards.html %}
 
